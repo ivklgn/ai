@@ -39,7 +39,7 @@ curl -fsSL https://raw.githubusercontent.com/ivklgn/ai/main/claude/install.sh | 
 
 ### Subagents
 
-Subagents are specialized AI assistants that Claude Code can delegate tasks to. See [official documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents).
+Subagents are specialized AI assistants that Claude Code can delegate tasks to. Each operates in its own context, preventing pollution of the main conversation. See [official docs](https://docs.anthropic.com/en/docs/claude-code/sub-agents).
 
 | Agent | Description |
 |-------|-------------|
