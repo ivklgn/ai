@@ -23,12 +23,16 @@ NC='\033[0m'
 
 KNOWN_AGENTS=(
     "business-analyst"
+    "css-developer"
+    "frontend-figma-layout-designer"
     "golang-pro"
+    "npm-updater"
+    "playwright-e2e"
     "postgres-pro"
     "react-code-optimizer"
     "react-specialist"
+    "reatom-guru"
     "typescript-pro"
-    "playwright-e2e"
 )
 
 usage() {
