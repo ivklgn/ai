@@ -28,6 +28,7 @@ KNOWN_AGENTS=(
     "react-code-optimizer"
     "react-specialist"
     "typescript-pro"
+    "playwright-e2e"
 )
 
 usage() {
