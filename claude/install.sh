@@ -26,6 +26,7 @@ KNOWN_AGENTS=(
     "css-developer"
     "frontend-figma-layout-designer"
     "golang-pro"
+    "instantdb-expert"
     "npm-updater"
     "playwright-e2e"
     "postgres-pro"
