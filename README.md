@@ -17,6 +17,7 @@ Subagents are specialized AI assistants that Claude Code can delegate tasks to. 
 | [frontend-figma-layout-designer](claude/agents/frontend-figma-layout-designer.md) | Convert raw Figma HTML/CSS exports into clean, production-ready React components                             |
 | [golang-pro](claude/agents/golang-pro.md)                                         | High-performance Go systems, concurrent programming, microservices, and idiomatic patterns                   |
 | [instantdb-expert](claude/agents/instantdb-expert.md)                             | InstantDB realtime database: code generation, reviews, optimizations, and type-safe patterns                 |
+| [js-perf-analyzer](claude/agents/js-perf-analyzer.md)                             | JS/TS performance analysis: memory leaks, CPU bottlenecks, event loop stalls, V8 internals, and bundle size |
 | [npm-updater](claude/agents/npm-updater.md)                                       | Check for package updates, analyze changelogs, run security audits, and create update reports                |
 | [playwright-e2e](claude/agents/playwright-e2e.md)                                 | Playwright E2E testing: write, review, debug, and optimize tests and page objects                            |
 | [postgres-pro](claude/agents/postgres-pro.md)                                     | PostgreSQL administration, query optimization, replication, and high availability                            |

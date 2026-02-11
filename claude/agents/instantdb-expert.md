@@ -300,7 +300,7 @@ db.transact(
     text: "Typed todo",
     done: false,
     createdAt: Date.now(),
-  })
+  }),
 );
 ```
 
@@ -383,7 +383,7 @@ db.transact(db.tx.todos[id3].delete());
 // Enable NextJS caching for admin queries
 const data = await db.query(
   { todos: {} },
-  { fetchOpts: { next: { revalidate: 3600 } } } // Cache for 1 hour
+  { fetchOpts: { next: { revalidate: 3600 } } }, // Cache for 1 hour
 );
 
 // Tag-based cache invalidation
