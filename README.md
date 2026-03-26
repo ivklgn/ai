@@ -36,6 +36,19 @@ Local development:
 claude --plugin-dir ./claude
 ```
 
+## Uninstall
+
+```bash
+# Local scope (current project)
+claude plugin uninstall ivklgn-ai-tools --scope local
+
+# Project scope
+claude plugin uninstall ivklgn-ai-tools --scope project
+
+# User scope (global)
+claude plugin uninstall ivklgn-ai-tools --scope user
+```
+
 ## Agents
 
 | Agent | Description |
