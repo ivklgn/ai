@@ -1,6 +1,6 @@
 # ivklgn-ai-tools
 
-Claude Code plugin with 22 specialized subagents and skills.
+Claude Code plugin with 22 specialized subagents and 3 skills.
 
 ## Installation
 
@@ -80,6 +80,8 @@ claude plugin uninstall ivklgn-ai-tools --scope user
 
 | Skill | Description |
 | --- | --- |
+| [load-branch-changes](claude/skills/load-branch-changes/SKILL.md) | Load current branch changes (diff, commits, changed files) into session context |
+| [reset-permissions](claude/skills/reset-permissions/SKILL.md) | Reset accumulated permissions in .claude/settings.local.json (full or keep read-only) |
 | [review-go](claude/skills/review-go/SKILL.md) | Go code review on git-changed files using golang-pro agent with Context7 docs |
 
 ## Structure
@@ -89,5 +91,5 @@ claude plugin uninstall ivklgn-ai-tools --scope user
 └── claude/
     ├── .claude-plugin/plugin.json  # Plugin metadata
     ├── agents/                     # Subagents (22)
-    └── skills/                     # Skills
+    └── skills/                     # Skills (3)
 ```
