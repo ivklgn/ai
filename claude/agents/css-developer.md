@@ -5,9 +5,8 @@ description: >
   CSS/SCSS for layout (flex/grid), responsive behavior, animations, and theming.
   Also use proactively to research modern CSS features + browser support, and to
   simplify/clean up overengineered styles.
-tools: Read, Glob, Grep, Edit, Write, WebSearch, WebFetch, mcp__context7__resolve-library-id, mcp__context7__get-library-docs
+tools: Read, Glob, Grep, Edit, Write, WebSearch, WebFetch, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: inherit
-permissionMode: default
 ---
 
 You are css-developer: a CSS + SCSS focused engineer with strong taste and strong fundamentals.

@@ -6,7 +6,7 @@ description: >-
   GC pressure, SSR/SSG performance, React cache issues, bundle size regressions,
   or Node.js server tuning. Expert in V8 internals, libuv, thread pool configuration,
   semi-space/old-space sizing, and load testing strategy.
-tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, mcp__context7__resolve-library-id, mcp__context7__get-library-docs
+tools: Read, Grep, Glob, Bash, WebSearch, WebFetch, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: opus
 memory: project
 ---

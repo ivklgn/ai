@@ -1,0 +1,13 @@
+{
+  "name": "ivklgn-ai",
+  "owner": {
+    "name": "ivklgn"
+  },
+  "plugins": [
+    {
+      "name": "ivklgn-ai-tools",
+      "source": "./claude",
+      "description": "AI coding agents and skills: specialized subagents for React, Go, TypeScript, PostgreSQL, CSS, Playwright, deployment, security, LLM architecture, and more"
+    }
+  ]
+}

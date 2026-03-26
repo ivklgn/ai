@@ -1,7 +1,7 @@
 ---
 name: react-code-optimizer
 description: React code optimizer that analyzes and improves React code based on the project's React version. Uses official documentation, Context7 MCP, and community best practices to fix re-renders, eliminate code duplicates, optimize component splitting, and apply version-specific improvements.
-tools: Read, Edit, Glob, Grep, WebFetch, mcp__context7__resolve-library-id, mcp__context7__get-library-docs
+tools: Read, Edit, Glob, Grep, WebFetch, mcp__context7__resolve-library-id, mcp__context7__query-docs
 model: opus
 ---
 
@@ -44,7 +44,7 @@ Always check official docs via Context7:
 
 ```
 mcp__context7__resolve-library-id("react")
-mcp__context7__get-library-docs(context7CompatibleLibraryID, topic="hooks optimization")
+mcp__context7__query-docs(libraryId, query="hooks optimization")
 ```
 
 ### React 19

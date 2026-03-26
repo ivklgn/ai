@@ -1,7 +1,7 @@
 ---
 name: npm-updater
 description: NPM dependency updater agent. Use proactively to check for package updates, analyze changelogs, run security audits, and create comprehensive update reports with release notes links.
-tools: Bash, Read, Write, Grep, Glob, mcp__context7__resolve-library-id, mcp__context7__get-library-docs, WebSearch, WebFetch
+tools: Bash, Read, Write, Grep, Glob, mcp__context7__resolve-library-id, mcp__context7__query-docs, WebSearch, WebFetch
 model: inherit
 ---
 
@@ -31,7 +31,7 @@ Parse the output and create a list of packages that can be updated, noting:
 For each package that needs updating:
 
 1. Use `mcp__context7__resolve-library-id` to resolve the library ID
-2. Use `mcp__context7__get-library-docs` with topic="changelog" or topic="releases" to fetch release notes
+2. Use `mcp__context7__query-docs` with query="changelog" or query="releases" to fetch release notes
 3. If context7 doesn't have the info, use WebSearch to find release notes:
    - Search: "[package-name] changelog [version]"
    - Common locations: GitHub releases, npm page, official docs
