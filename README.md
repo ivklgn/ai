@@ -1,4 +1,4 @@
-# ivklgn-ai-tools
+# ivklgn
 
 Claude Code plugin with 22 specialized subagents and 3 skills.
 
@@ -9,7 +9,7 @@ Claude Code plugin with 22 specialized subagents and 3 skills.
 /plugin marketplace add ivklgn/ai
 
 # Install the plugin
-/plugin install ivklgn-ai-tools
+/plugin install ivklgn
 ```
 
 Or via `settings.json`:
@@ -25,7 +25,7 @@ Or via `settings.json`:
     }
   },
   "enabledPlugins": {
-    "ivklgn-ai-tools@ivklgn-ai": true
+    "ivklgn@ivklgn-ai": true
   }
 }
 ```
@@ -40,13 +40,13 @@ claude --plugin-dir ./claude
 
 ```bash
 # Local scope (current project)
-claude plugin uninstall ivklgn-ai-tools --scope local
+claude plugin uninstall ivklgn --scope local
 
 # Project scope
-claude plugin uninstall ivklgn-ai-tools --scope project
+claude plugin uninstall ivklgn --scope project
 
 # User scope (global)
-claude plugin uninstall ivklgn-ai-tools --scope user
+claude plugin uninstall ivklgn --scope user
 ```
 
 ## Agents
