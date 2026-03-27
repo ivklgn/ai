@@ -67,7 +67,7 @@ claude plugin uninstall ivklgn --scope user
 | [npm-updater](claude/agents/npm-updater.md) | Check for package updates, analyze changelogs, run security audits, and create update reports |
 | [platform-engineer](claude/agents/platform-engineer.md) | Internal developer platforms, self-service infrastructure, Backstage portals, and golden paths |
 | [playwright-e2e](claude/agents/playwright-e2e.md) | Playwright E2E testing: write, review, debug, and optimize tests and page objects |
-| [postgres-pro](claude/agents/postgres-pro.md) | PostgreSQL administration, query optimization, replication, and high availability |
+| [postgres-pro](claude/agents/postgres-pro.md) | PostgreSQL expert for relational database design, normalization, ER modeling, and correctness-focused performance |
 | [prompt-engineer](claude/agents/prompt-engineer.md) | Prompt design, optimization, A/B testing, and production prompt management |
 | [react-code-optimizer](claude/agents/react-code-optimizer.md) | React performance analysis: fix re-renders, eliminate duplicates, optimize component splitting |
 | [react-specialist](claude/agents/react-specialist.md) | React 18+ development with hooks, server components, and production-ready architectures |
