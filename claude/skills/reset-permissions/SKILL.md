@@ -1,6 +1,7 @@
 ---
 name: reset-permissions
 description: Reset accumulated permissions in .claude/settings.local.json. Use when the user says "/reset-permissions" or asks to clear, reset, or clean up Claude Code permissions. Supports full reset (default) or selective reset keeping read-only permissions (--keep-read).
+model: haiku
 ---
 
 # Reset Permissions

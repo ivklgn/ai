@@ -1,6 +1,7 @@
 ---
 name: load-branch-changes
 description: Load current git branch changes (diff, commits, changed files) into session context. Use when the user invokes /load-branch-changes to review, understand, or focus on the current branch's changes compared to the base branch.
+model: haiku
 ---
 
 # Load Branch Changes
