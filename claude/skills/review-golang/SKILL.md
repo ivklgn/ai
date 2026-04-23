@@ -1,5 +1,5 @@
 ---
-name: review-go
+name: review-golang
 description: Run a comprehensive Go code review on git-changed files using the golang-pro agent with Context7 library docs
 disable-model-invocation: true
 ---
